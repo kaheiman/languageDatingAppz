@@ -1,0 +1,12 @@
+{
+  "name": "languageDating",
+  "description": "Winning LanguageDating",
+  "author": "Victor Tong",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  }
+}
