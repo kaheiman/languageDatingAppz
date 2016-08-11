@@ -1,0 +1,230 @@
+.copy-right {
+  font-size: 10px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.add-word-header {
+  color: #10a6a9;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.add-word-field {
+  width: 90%;
+  margin: 20px;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 4px solid white;
+}
+
+input.add-word-field {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.notes,
+.tags,
+.language {
+  width: 100%;
+  margin: 20px 10px;
+}
+
+.tag-input {
+  width: 90%;
+  border-radius: 20px;
+  border: 0;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.notes-header,
+.tags-header {
+  width: 30%;
+  color: #10a6a9;
+}
+
+.language-header {
+  color: #10a6a9;
+  display: inline;
+  padding-right: 20px;
+}
+
+.notes-content {
+  width: 100%;
+}
+
+.notes-content textarea {
+  border-radius: 20px;
+  padding: 10px;
+  width: 90%;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.tags-list {
+  margin: 15px 0;
+}
+
+.single-tag {
+  background-color: beige;
+  font-size: 1em;
+  color: #1f253d;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.fa.fa-times.delete-tag {
+  color: #1f253d;
+}
+
+select.add-word-select {
+ padding-top: 10px;
+ color:#FFF;
+ font-size:1em;
+ background:none;
+ outline:none;
+ border:none;
+ margin: 0px auto;
+ -webkit-apperance:none;
+ font-family: 'ambleregular';
+}
+
+.add-word-button {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.word-header {
+  font-size: 3em;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  margin: 40px 0;
+  letter-spacing: 2px;
+}
+
+.language-english {
+  color: white;
+  display: inline;
+}
+
+.bitcoin-description {
+  color: white;
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+.bitcoin-tags-list {
+  margin: 20px;
+}
+
+.bitcoin-language {
+  color: white;
+  margin: 20px;
+  font-style: italic;
+}
+
+.bitcoin-last-used {
+  background-color: #10a6a9;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.last-used-header,
+.last-used-date {
+  display: inline;
+}
+
+.last-used-header {
+  margin-right: 20px;
+  font-weight: 800;
+  color: white;
+  font-size: 18px;
+}
+
+.edit-button {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  float: right;
+  margin-right: 20px;
+}
+
+.back-button,
+a:visited {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+}
+
+.filter {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.filter-heading {
+  color: white;
+  display: inline;
+  width: 50px;
+}
+
+.filter select {
+  width: 120px;
+  background-color: rgba(60,66,90,0.7);
+  padding: 5px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.filter i {
+  color: white;
+}
+
+.chevron-filter {
+  background-color: rgba(60,66,90,0.7);
+  display: inline;
+  padding: 6px;
+  margin-left: -4px;
+}
+
+.word {
+  color: white;
+}
+
+.date {
+  padding-left: 5px;
+  font-size: 0.8em;
+  color: #8d96b4 !important;
+}
+
+.list-tag {
+  background-color: #1f253d;
+  font-size: 15px;
+  color: #4b536e;
+  display: inline;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.add-word-from-word-list {
+  background-color: #10a6a9;
+}
+
+.add-word-from-word-list i {
+  font-size: 20px;
+}

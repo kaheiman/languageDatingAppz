@@ -1,0 +1,143 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<head>
+<title>Ui kits for Iphone, Android and Smartphone Website Templates | Home :: w3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link href="smartphone/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="smartphone/css/word-list.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" src="smartphone/js/jquery.js"></script>
+<script type="text/javascript" src="smartphone/js/login.js"></script>
+<script type="text/javascript" src="smartphone/js/Chart.js"></script>
+<script type="text/javascript" src="smartphone/js/jquery.easing.js"></script>
+<script type="text/javascript" src="smartphone/js/jquery.ulslide.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+  <script src="smartphone/js/underscore-min.js"></script>
+  <script src="smartphone/js/moment-2.2.1.js"></script>
+  <script src="smartphone/js/clndr.js"></script>
+  <script src="smartphone/js/site.js"></script>
+  <!----End Calender -------->
+  <link type="text/css" href="smartphone/css/mmenu.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="smartphone/js/jquery.mmenu.min.js"></script>
+<script type="text/javascript">
+		$(function() {
+			$('nav#menu').mmenu();
+		});
+	</script>
+</head>
+<body>
+	    <div class="wrap">
+	      <div class="header">
+	      	  <div class="header_top">
+	      	     	<div class="menu-ico"><a href="#menu"></a></div>
+					  <div class="profile_details">
+				    		   <div id="loginContainer">
+				                  <a id="loginButton" class=""><span>Anne Hathaway</span></a>
+				                    <div id="loginBox">
+				                      <form id="loginForm">
+				                        <fieldset id="body">
+				                            <div class="user-info">
+							        			<h4>Hello,<a href="#"> Username</a></h4>
+							        			<ul>
+							        				<li class="profile active"><a href="#">Profile </a></li>
+							        				<li class="logout"><a href="#"> Logout</a></li>
+							        				<div class="clear"></div>
+							        			</ul>
+							        		</div>
+				                        </fieldset>
+				                    </form>
+				                </div>
+				            </div>
+				             <div class="profile_img">
+				             	<a href=""><img src="smartphone/images/profile_img40x40.jpg" alt="" />	</a>
+				             </div>
+				             <div class="clear"></div>
+					    </div>
+		 		      <div class="clear"></div>
+				   </div>
+			</div>
+	   </div>
+	  <div class="main">
+	    <div class="wrap">
+        <div class="column_middle add-word">
+          <h3 class="add-word-header"><br>Add New Word</h3>
+          <input type="text" name="name" value="" class="add-word-field"></input>
+
+          <div class="language">
+            <div class="language-header">
+              <i class="fa fa-comment" aria-hidden="true"></i>&nbsp;&nbsp;Language
+            </div>
+
+            <select class="add-word-select">
+              <option value="english">English</option>
+              <option value="mandarin">Mandarin</option>
+              <option value="japanese">Japanese</option>
+              <option value="french">French</option>
+              <option value="spanish">Spanish</option>
+            </select>
+          </div>
+
+          <div class="tags">
+            <div class="tags-header">
+              <i class="fa fa-sticky-note" aria-hidden="true"></i>&nbsp;&nbsp;Tags
+            </div>
+            <input type="text" name="name" value="" class="tag-input"></input>
+            <div class="tags-list"></div>
+          </div>
+
+          <div class="notes">
+            <div class="notes-header">
+              <i class="fa fa-sticky-note" aria-hidden="true"></i>&nbsp;&nbsp;Notes
+            </div>
+
+            <div class="notes-content">
+              <textarea name="name" rows="8" placeholder="What does this word mean? How can it be used?"></textarea>
+            </div>
+  	    </div>
+
+        <div class="add-word-button">
+          <a href="./word-list.html"><i class="fa fa-plus-square-o add-word-button" aria-hidden="true"></i></a>
+        </div>
+
+ 	    </div>
+   </div>
+
+   <nav id="menu">
+     <ul>
+       <li><a href="menu.html"><i><img src="smartphone/images/user.png"></i> Profile</a></li>
+       <li><a href="#"><span><i><img src="smartphone/images/mail.png"></i> Messages</span><label class="digits active">5</label><div class="clear"></div></a></li>
+         <li><a href="explore.html"><span> <i><img src="smartphone/images/invites.png"></i>Explore Friends</span><label class="digits">2</label><div class="clear"></div></a></li>
+         <li><a href="word-list.html"><i><img src="smartphone/images/favourite.png" alt="" /></i>My Word List</a></li>
+       <li><a href="#"><i><img src="smartphone/images/settings.png" alt="" /></i>Settings</a></li>
+     </ul>
+  </nav>
+
+     <script>
+      $(document).ready(function() {
+        $('.tag-input').keypress(function (e) {
+          var key = e.which;
+          var term = $(this).val();
+          if (key == 13) {
+            $(this).val("");
+            $('.tags-list').append("<div class='single-tag'>" + term + "&nbsp;&nbsp;<i class='fa fa-times delete-tag' aria-hidden='true'></i></div>");
+          }
+        });
+
+        $('.tags-list').on('click', '.single-tag', function() {
+          $(this).remove();
+        });
+      });
+     </script>
+
+</body>
+</html>

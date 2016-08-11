@@ -1,0 +1,91 @@
+.explore img{
+	border-radius: 100%;
+}
+
+#sessioname{
+	color: white;
+	font-size: 20px;
+	position: relative;
+	right: 100px;
+}
+
+#name{
+	color: white;
+	font-size: 20px;
+}
+
+#match {
+	color: #35cefb;
+}
+
+.explore-header {
+  color: #10a6a9;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 800;
+	margin-top: 20px;
+}
+
+.explore-header i {
+	font-size: 25px;
+}
+
+.explore img {
+	margin-top: 15px;
+}
+
+#circle {
+	border-radius: 100%;
+	width: 20px;
+	top: -230px;
+	left: 320px;
+	position: relative;
+	background-color: green;
+}
+
+.reviewbox {
+	border: solid 2px #10a6a9;
+	color: white;
+	font-size: 12px;
+	margin-top: 20px;
+	font-size: 20px;
+
+}
+
+.reviewPhoto {
+	display: inline-block;
+
+}
+
+#reviewText {
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top: -20px;
+	margin-left: 10px;
+	padding: 20px;
+}
+
+.reviewTable {
+	margin-top: 25px;
+}
+
+.reviewTable img {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.profile_img img {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+#button {
+	background-color: #10a6a9;
+	color: white;
+	padding: 8px 16px;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 5px;
+}

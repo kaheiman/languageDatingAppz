@@ -1,0 +1,47 @@
+.userOnline {
+	font-size: 27px;
+	color: #35cefb;
+	margin: 15px 0 25px 10px;
+}
+.online {
+	color: white;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.online img{
+	width: 50px;
+	border-radius: 100%;
+}
+
+.online span {
+	margin-left:  20%;
+	position: relative;
+	top: -20px;
+	font-weight: 800;
+	font-size: 20px;
+
+}
+
+#button {
+	background-color: #10a6a9;
+	color: white;
+	padding: 6px;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-right: 20px;
+	top: -45px;
+	margin-left: 300px;
+	position: relative;
+}
+
+#words{
+	position: relative;
+	left: 20%;
+	right: 50%;
+	font-size: 18px;
+	font-weight: 800;
+	color: white;
+	font-weight: 800;
+
+}

@@ -1,0 +1,154 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<head>
+<title>Ui kits for Iphone, Android and Smartphone Website Templates | Home :: w3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="smartphone/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" src="smartphone/js/jquery.js"></script>
+<script type="text/javascript" src="smartphone/js/login.js"></script>
+<script type="text/javascript" src="smartphone/js/Chart.js"></script>
+ <script type="text/javascript" src="smartphone/js/jquery.easing.js"></script>
+ <script type="text/javascript" src="smartphone/js/jquery.ulslide.js"></script>
+ <!----Calender -------->
+ <link rel="stylesheet" href="smartphone/css/indexmenu.css" type="text/css"/>
+  <link rel="stylesheet" href="smartphone/css/clndr.css" type="text/css" />
+  <script src="smartphone/js/underscore-min.js"></script>
+  <script src= "smartphone/js/moment-2.2.1.js"></script>
+  <script src="smartphone/js/clndr.js"></script>
+  <script src="smartphone/js/site.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" type="text/javascript"></script>
+  <!----End Calender -------->
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+  <link type="text/css" href="smartphone/css/mmenu.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="smartphone/js/indexmenu.js"></script>
+<script type="text/javascript" src="smartphone/js/jquery.mmenu.min.js"></script>
+<script type="text/javascript">
+		$(function() {
+			$('nav#menu').mmenu();
+		});
+	</script>
+</head>
+<body ng-app="app" ng-controller="mainController">
+	    <div class="wrap">
+	      <div class="header">
+	      	  <div class="header_top">
+	      	     	<div class="menu-ico"><a href="#menu"></a></div>
+					  <div class="profile_details">
+				    		   <div id="loginContainer">
+				                  <a id="loginButton" class=""><span>Anne Hathaway</span></a>
+				                    <div id="loginBox">
+				                      <form id="loginForm">
+				                        <fieldset id="body">
+				                            <div class="user-info">
+							        			<h4>Hello,<a href="#"> Username</a></h4>
+							        			<ul>
+							        				<li class="profile active"><a href="#">Profile </a></li>
+							        				<li class="logout"><a href="#"> Logout</a></li>
+							        				<div class="clear"></div>
+							        			</ul>
+							        		</div>
+				                        </fieldset>
+				                    </form>
+				                </div>
+				            </div>
+				             <div class="profile_img">
+				             	<a href=""><img src="smartphone/images/profile_img40x40.jpg" alt="" />	</a>
+				             </div>
+				             <div class="clear"></div>
+					    </div>
+		 		      <div class="clear"></div>
+				   </div>
+			</div>
+	   </div>
+	  <div class="main">
+	    <div class="wrap">
+	       <div class="column_left">
+	  		</div>
+
+            <div class="column_middle">
+              <div class="column_middle_grid1">
+		         <div class="profile_picture">
+		        	<a href=""><img src="smartphone/images/profile_img150x150.jpg" alt="" />	</a>
+		            <div class="profile_picture_name">
+		            	<h2>Anne Hathaway</h2>
+		            </div>
+		          </div>
+		           <div class="articles_list">
+		           	  <ul>
+         	  	     <li><a href="review1.html" class="red"> <img src="smartphone/images/comments.png" alt="" /> 23</a></li>
+		           	  	<li><a href="#" class="purple"> <img src="smartphone/images/views.png" alt="" /> 841</a></li>
+		           	  	<li><a href="#" class="yellow"> <img src="smartphone/images/likes.png" alt="" /> 49</a></li>
+		           	  	<div class="clear"></div>
+		           	  </ul>
+		           </div>
+					<div class= "userOnline">
+			        	Review Vocabulary
+			        	<hr>
+			        </div>
+	             	<div class="graph_list">
+	             		 <div class="week-month-year">
+	             		 	<p ><a href="#" ng-click="arrayChange('week')">Week</a></p>
+	             		 	<p><a href="#" ng-click="arrayChange('today')">Today</a></p>
+	             		 	<p><a href="#" ng-click="arrayChange('month')">Month</a></p>
+	             		 	<div class="clear"></div>
+	             		 </div>
+			      			<ul>
+					  		    <li id="words" ng-repeat ='word in sort'><span class="day_name">{{ word }}</span>
+			    			</ul>
+			      </div>
+
+				<div class= "userOnline">
+		        	Online Users:
+		        	<hr>
+		        </div>
+<!-- 				<div class= "online" >
+					<span><i><img src="smartphone/images/profile_img150x150.jpg" alt="" /></i></span>
+					<span class="username" > Username </span>
+				</div>
+				<div class= "online" >
+					<span><i><img src="smartphone/images/profile_img150x150.jpg" alt="" /></i></span>
+					<span class="username" > Username </span>
+				</div>
+				<div class= "online" >
+					<span><i><img src="smartphone/images/profile_img150x150.jpg" alt="" /></i></span>
+					<span class="username" > Username </span>
+				</div>	 -->
+				<div class="weather">
+						<div class="temp_list">
+	      			<ul>
+	      				<div class="online">
+	      					<li><i><img src="smartphone/images/poke.jpg" alt="" /></i><span>Username1</span><a href="http://192.168.11.70:60985/account/login?ReturnUrl=%2F" id="button">chat</a></li>
+	      				</div>
+	      				<div class="online">
+	      					<li><i><img src="smartphone/images/poke2.jpg" alt="" /></i><span>Username2</span><a href="http://192.168.11.70:60985/account/login?ReturnUrl=%2F" id="button">chat</a></li>
+	      				</div>
+	      				<div class="online">
+	      					<li><i><img src="smartphone/images/poke3.jpg" alt="" /></i><span>Username3</span><a href="http://192.168.11.70:60985/account/login?ReturnUrl=%2F" id="button">chat</a></li>
+	      				</div>
+	    			</ul>
+	      </div>
+			 	</div>
+             </div>
+    	<div class="clear"></div>
+ 	 </div>
+   </div>
+   					<nav id="menu">
+							<ul>
+								<li><a href="menu.html"><i><img src="smartphone/images/user.png"></i> Profile</a></li>
+								<li><a href="#"><span><i><img src="smartphone/images/mail.png"></i> Messages</span><label class="digits active">5</label><div class="clear"></div></a></li>
+						  		<li><a href="explore.html"><span> <i><img src="smartphone/images/invites.png"></i>Explore Teachers</span><label class="digits">2</label><div class="clear"></div></a></li>
+						  		<li><a href="word-list.html"><i><img src="smartphone/images/favourite.png" alt="" /></i>My Word List</a></li>
+								<li><a href="#"><i><img src="smartphone/images/settings.png" alt="" /></i>Settings</a></li>
+							</ul>
+					 </nav>
+
+</body>
+</html>
